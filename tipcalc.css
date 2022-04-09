@@ -1,0 +1,30 @@
+*{
+    margin:8px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+}
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+}
+div{
+    max-width:500px; 
+    height:auto;
+    background-color:aqua;
+    padding:50px;
+    box-shadow: 1px 1px 15px 3px coral;
+}
+input{
+    padding:10px;
+    width: 400px;
+    
+}
+button{
+    border-radius:10px;
+    padding:15px 30px ;
+    text-transform:uppercase;
+    background-color: rgb(73, 66, 116);
+}
